@@ -4,17 +4,10 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ComCtrls, Grids, DBGrids;
+  Dialogs, Grids, DBGrids, StdCtrls;
 
 type
   TForm1 = class(TForm)
-    edt1: TEdit;
-    edt2: TEdit;
-    edt3: TEdit;
-    edt4: TEdit;
-    edt5: TEdit;
-    dtp1: TDateTimePicker;
-    cbb1: TComboBox;
     lbl1: TLabel;
     lbl2: TLabel;
     lbl3: TLabel;
@@ -22,6 +15,13 @@ type
     lbl5: TLabel;
     lbl6: TLabel;
     lbl7: TLabel;
+    edt1: TEdit;
+    edt2: TEdit;
+    edt3: TEdit;
+    edt4: TEdit;
+    edt5: TEdit;
+    cbb1: TComboBox;
+    cbb2: TComboBox;
     lbl8: TLabel;
     lbl9: TLabel;
     lbl10: TLabel;
@@ -29,11 +29,11 @@ type
     lbl12: TLabel;
     lbl13: TLabel;
     edt6: TEdit;
-    cbb2: TComboBox;
+    cbb3: TComboBox;
     edt7: TEdit;
     edt8: TEdit;
     edt9: TEdit;
-    cbb3: TComboBox;
+    cbb4: TComboBox;
     btn1: TButton;
     btn2: TButton;
     btn3: TButton;
